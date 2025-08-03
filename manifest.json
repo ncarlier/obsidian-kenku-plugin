@@ -1,0 +1,11 @@
+{
+	"id": "kenku-plugin",
+	"name": "Kenku Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Control Kenku with buttons",
+	"author": "ncarlier",
+	"authorUrl": "https://github.com/ncarlier",
+	"fundingUrl": "https://www.paypal.me/nunux",
+	"isDesktopOnly": false
+}
