@@ -54,7 +54,7 @@ In the plugin settings, you can configure the **base URL** of your KenkuFM serve
 
 ## Manually installing the plugin
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/your-plugin-id/`.
+- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-kenku-plugin/`.
 
 ## License
 
