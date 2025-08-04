@@ -1,6 +1,6 @@
 # Kenku Buttons for Obsidian
 
-**Kenku Buttons** is an Obsidian plugin that lets you create interactive buttons in your notes to control [KenkuFM](https://www.kenkufm.com/) via its API. With a single click, you can play playlists or soundboards directly from your vault.
+**Kenku Buttons** is an Obsidian plugin that lets you create interactive buttons in your notes to control [KenkuFM](https://www.kenku.fm/) via its API. With a single click, you can play playlists or soundboards directly from your vault.
 
 ## Features
 
