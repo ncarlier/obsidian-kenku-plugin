@@ -45,16 +45,54 @@ In the plugin settings, you can configure the **base URL** of your KenkuFM serve
 | `action`  | (default=play)     | Action to perform (`play` or `stop`)                   |
 | `type`    | (defqult=playlist) | Type of item (`playlist` or `soundboard`)              |
 
-## How to use
+## Manually installing the plugin
+
+Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-kenku-plugin/`.
+
+## Development
+
+### Getting started
 
 - Clone this repo.
 - Make sure your NodeJS is at least v16 (`node --version`).
 - `npm i` or `yarn` to install dependencies.
 - `npm run dev` to start compilation in watch mode.
 
-## Manually installing the plugin
+### Building the plugin
 
-- Copy over `main.js`, `styles.css`, `manifest.json` to your vault `VaultFolder/.obsidian/plugins/obsidian-kenku-plugin/`.
+```bash
+npm run build
+```
+
+### Releasing a new version
+
+This plugin uses an automated GitHub workflow to create releases. To release a new version:
+
+1. **Update the version** using npm (this updates `package.json`, `manifest.json`, and `versions.json`):
+   ```bash
+   npm version patch  # for bug fixes (1.0.0 -> 1.0.1)
+   npm version minor  # for new features (1.0.0 -> 1.1.0)
+   npm version major  # for breaking changes (1.0.0 -> 2.0.0)
+   ```
+
+2. **Commit the version changes**:
+   ```bash
+   git commit -m "Release version X.Y.Z"
+   ```
+
+3. **Push the commit and tags**:
+   ```bash
+   git push && git push --tags
+   ```
+
+4. **GitHub Actions will automatically**:
+   - Build the plugin
+   - Verify the version matches the tag
+   - Create a GitHub release
+   - Upload `main.js`, `manifest.json`, and `styles.css` as release assets
+   - Generate release notes from commit history
+
+You can then download the release assets and install them manually.
 
 ## License
 
