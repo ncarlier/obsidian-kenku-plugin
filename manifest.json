@@ -1,7 +1,7 @@
 {
 	"id": "kenku-plugin",
 	"name": "Kenku Plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Control Kenku with buttons",
 	"author": "ncarlier",

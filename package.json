@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-kenku-plugin",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Obsidian plugin to control Kenku with buttons",
 	"main": "main.js",
 	"scripts": {
